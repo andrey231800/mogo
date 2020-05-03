@@ -4,16 +4,19 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>MoGo</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+  </head>
     <link rel="stylesheet" href="./style.css" />
     <link
-      href="https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Montserrat:wght@400;700&family=Roboto:ital,wght@0,400;1,300&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Montserrat:wght@400;500;700&family=Roboto:ital,wght@0,400;1,300&display=swap"
       rel="stylesheet"
     />
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css"
     />
-  </head>
+    <link rel="stylesheet" href="effects.css">
+    <link rel="stylesheet" href="./css/animate.css">
   <body>
     <div class="wrapper">
       <section class="container1">
@@ -56,12 +59,24 @@
         </div>
         <div class="cards">
           <div class="item">
+            <div class="hidden">
+              <i class="fas fa-user-friends"></i>
+              <p>Super team</p>
+          </div>
             <img src="./images/card1.png" alt="card1" class="img1" />
           </div>
           <div class="item">
+            <div class="hidden">
+              <i class="fas fa-user-friends"></i>
+              <p>Super team</p>
+          </div>
             <img src="./images/card2.png" alt="card2" />
           </div>
           <div class="item">
+            <div class="hidden">
+              <i class="fas fa-user-friends"></i>
+               <p>Super team</p>
+            </div>
             <img src="./images/card3.png" alt="card3" />
           </div>
         </div>
@@ -88,8 +103,577 @@
           <h1>24</h1>
           <span>members</span>
         </div>
-      </section>
+     </div>
+    </section>
+    <section class="container4">
+      <div class="strc ">
+        <span class="title">What we do</span>
+        <h3>amazing services</h3>
+        <span>
+          <i class="line"></i>
+        </span>
+     </div>
+      <div class="cards_blue">
+        <div>
+          <i class="far fa-clock"></i>
+          <div class="block"> <h4>photography</h4>
+            <span>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.</span>
+          </div>
+        </div>
+        <div>
+          <i class="fas fa-chart-line"></i>
+          <div class="block"> <h4>web design</h4>
+          <span>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.</span>
+        </div>
+         
+        </div>
+        <div> <i class="fas fa-tv"></i>
+          <div class="block"> <h4>creativity</h4>
+            <span>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.</span>
+          </div>
+        </div>
+        <div> <i class="fas fa-book-open"></i>
+          <div class="block"> <h4>seo</h4>
+            <span>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.</span>
+          </div>
+        </div>
+        <div> <i class="fas fa-home"></i>
+          <div class="block"> <h4>css/html</h4>
+            <span>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.</span>
+          </div>
+        </div>
+        <div> <i class="fas fa-box-open"></i>
+          <div class="block"> <h4>digital</h4>
+            <span>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.</span>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="container5">
+      <div class="strc ">
+        <span class="title">For all devices</span>
+        <h3>unique design</h3>
+        <span>
+          <i class="line"></i>
+        </span>
+     </div>
+     <div class="devices ">
+       <img class="ipad wow flipInY" data-wow-duration="4s" src="./images/ipad.png" alt="">
+       <img class="iphone wow bounceInUp" data-wow-duration="3s" src="./images/iphone.png" alt="">
+     </div>
+    </section>
+    <!-- <section class="container6">
+     <div class="container">
+        <div class="strc ">
+          <span class="title">Service</span>
+          <h3>what we do</h3>
+          <span>
+            <i class="line"></i>
+          </span>
+      </div>
+      <div class="row">
+        <div class=" col-xl-6 col-lg-6 col-md-6">
+          <img src="./images/chel.png" alt="chel">
+        </div>  
+        <div class="accordion col-xl-6 col-lg-6 col-md-6" id="accordionExample">
+          <div class="card card_white">
+            <div class="card-header card_white" id="headingOne">
+              <div class="row">
+                <i class="far fa-image item_s"></i>
+              <h3 class="mb-0 ti_tle">photography</h3>
+            </div>
+              <h2 class="mb-0">
+                <button class="btn btn-link arrow_but" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                  <i class="fas fa-chevron-down"></i>
+                </button>
+              </h2>
+            </div>
+        
+            <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordionExample">
+              <div class="card-body">
+                Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+              </div>
+            </div>
+          </div>
+          <div class="card ">
+            <div class="card-header card_white" id="headingTwo">
+              <div class="row">
+                <i class="fas fa-sliders-h item_s"></i>
+              <h3 class="mb-0 ti_tle">creativity</h3>
+              <h2 class="mb-0">
+              </div>
+                <button class="btn btn-link collapsed arrow_but" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                  <i class="fas fa-chevron-down"></i>
+                </button>
+              </h2>
+            </div>
+            <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
+              <div class="card-body">
+                Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+              </div>
+            </div>
+          </div>
+          <div class="card">
+            <div class="card-header card_white" id="headingThree">
+             <div class="row">
+              <i class="fas fa-bullseye item_s"></i>
+              <h3 class="ti_tle">web design</h3>
+             </div>
+              <h2 class="mb-0">
+                <button class="btn btn-link collapsed arrow_but" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                  <i class="fas fa-chevron-down"></i>
+                </button>
+              </h2>
+            </div>
+            <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
+              <div class="card-body">
+                Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+              </div>
+            </div>
+          </div>   
+      </div>
+      
+      </div>
+     </div>
+    </section> -->
+    <section class="container8 center">
+      <div class="text center">
+        <span class="title">Who we are</span>
+        <h3>meet our team</h3>
+        <span>
+          <i class="line"></i>
+        </span>
+        <span class="ft"
+          >Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+          eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
+          ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+          aliquip ex ea commodo consequat.
+        </span>
+      </div>
+      <div class="container-fluid gallery">
+          <div class="row justify-content-between">
+              <div class="card_add">
+                  <div>
+                      <img class="img-fluid im_g" src="./images/gallery1.png" alt="gallery1">
+                  </div>
+                  <div class="text">
+                      <h5 class="mt-0 wow bounceInLeft" data-wow-duration="5s">Matthew Dix</h5>
+                      <p class="about wow lightSpeedIn" >Graphic Design</p>
+                  </div>
+              </div>
+              <div class="card_add">
+                  <div>
+                      <img class="img-fluid" src="./images/gallery2.png" alt="gallery2">
+                  </div>
+                  <div class="text">
+                      <h5 class="mt-0 wow bounceInLeft" data-wow-duration="5s">Christopher Cambell</h5>
+                      <p class="about wow lightSpeedIn">Branding/UX design</p>
+                  </div>
+              </div>
+              <div class="card_add">
+                  <div>
+                      <img class="img-fluid" src="./images/gallery3.png" alt="gallery3">
+                  </div>
+                  <div class="text">
+                      <h5 class="mt-0 wow bounceInLeft" data-wow-duration="5s">Michael Fertig</h5>
+                      <p class="about wow lightSpeedIn">Developer</p>
+                  </div>
+              </div>
+          </div>
+      </div>
+  </section>
+    <section class="container9">
+      <div class="container osn_cont">
+        <div class="row">
+          <div class="media cont_add col-xl-2 col-lg-2 col-md-4">
+            <img src="./images/img-1.png" class="mr-2" alt="img-1">
+          </div>
+          <div class="media cont_add col-xl-2 col-lg-2 col-md-4">
+            <img src="./images/img-2.png" class="mr-2" alt="img-1">
+          </div>
+          <div class="media cont_add col-xl-2 col-lg-2 col-md-4">
+            <img src="./images/img-3.png" class="mr-2" alt="img-1">
+          </div>
+          <div class="media cont_add col-xl-2 col-lg-2 col-md-4">
+            <img src="./images/img-4.png" class="mr-2" alt="img-1">
+          </div>
+          <div class="media cont_add col-xl-2 col-lg-2 col-md-4">
+            <img src="./images/img-5.png" class="mr-2" alt="img-1">
+          </div>
+          <div class="media cont_add col-xl-2 col-lg-2 col-md-4">
+            <img src="./images/img-6.png" class="mr-2" alt="img-1">
+          </div>
+        </div>
+      </div>
+    </section>
+   <section class="container10">
+    <div class="strc ">
+      <span class="title">What we do</span>
+      <h3>some of our work</h3>
+      <span>
+        <i class="line"></i>
+      </span>
+      <span class="ft"
+        >Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+        eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
+        ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+        aliquip ex ea commodo consequat.
+      </span>
     </div>
+    <div class="grid_cards">
+      <div class="item">
+        <img src="./images/human.png" alt="human">
+        <div class="icon_cards">
+          <i class="far fa-image"></i>
+          <div class="text">
+              <h4>
+                  creatively designed
+              </h4>
+              <p>
+                  Lorem ipsum dolor sit
+              </p>
+          </div>
+      </div>
+      </div>
+      <div class="item">
+        <img src="./images/zdanie.png" alt="zdanie">
+        <div class="icon_cards">
+          <i class="far fa-image"></i>
+          <div class="text">
+              <h4>
+                  creatively designed
+              </h4>
+              <p>
+                  Lorem ipsum dolor sit
+              </p>
+          </div>
+      </div>
+      </div>
+      <div class="item">
+        <img src="./images/medusa.png" alt="colizey">
+        <div class="icon_cards">
+          <i class="far fa-image"></i>
+          <div class="text">
+              <h4>
+                  creatively designed
+              </h4>
+              <p>
+                  Lorem ipsum dolor sit
+              </p>
+          </div>
+      </div>
+      </div>
+      <div class="item">
+        <img src="./images/potolok.png" alt="medusa">
+        <div class="icon_cards">
+          <i class="far fa-image"></i>
+          <div class="text">
+              <h4>
+                  creatively designed
+              </h4>
+              <p>
+                  Lorem ipsum dolor sit
+              </p>
+          </div>
+      </div>
+      </div>
+      <div class="item">
+        <img src="./images/bridge.png" alt="potolok">
+        <div class="icon_cards">
+          <i class="far fa-image"></i>
+          <div class="text">
+              <h4>
+                  creatively designed
+              </h4>
+              <p>
+                  Lorem ipsum dolor sit
+              </p>
+          </div>
+      </div>
+      </div>
+      <div class="item">
+      <img src="./images/colizey.png" alt="neboskreb">
+      <div class="icon_cards">
+        <i class="far fa-image"></i>
+        <div class="text">
+            <h4>
+                creatively designed
+            </h4>
+            <p>
+                Lorem ipsum dolor sit
+            </p>
+        </div>
+    </div>
+      </div>
+      <div class="item">
+        <img src="./images/neboskreb.png" alt="neboskreb">
+        <div class="icon_cards">
+          <i class="far fa-image"></i>
+          <div class="text">
+              <h4>
+                  creatively designed
+              </h4>
+              <p>
+                  Lorem ipsum dolor sit
+              </p>
+          </div>
+      </div>
+      </div>
+    </div>
+   </section>
+   <section class="container12">
+     <div class="container container_add">
+      <div class="strc ">
+        <span class="title">Happy Clients</span>
+        <h3>WHAT PEOPLE SAY</h3>
+        <span>
+          <i class="line"></i>
+        </span>
+     </div>
+       <div class="row">
+        <div class="media our_item col-xl-6 col-lg-6 col-md-6">
+          <img src="./images/item1.png" class="mr-3" alt="item1">
+          <div class="media-body">
+            <h5 class="mt-0">Mattew Dix</h5>
+            <p class="about">Graphic Design</p>
+            <span>
+              <i class="line"></i>
+            </span>
+            <p class="descr">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim.
+            </p>
+          </div>  
+        </div>
+        <div class="media our_item col-xl-6 col-lg-6 col-md-6">
+          <img src="./images/item2.png" class="mr-3" alt="item1">
+          <div class="media-body">
+            <h5 class="mt-0">Nick Karvounis</h5>
+            <p class="about">Graphic Design</p>
+            <span>
+              <i class="line"></i>
+            </span>
+            <p class="descr">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim.
+            </p>
+          </div>  
+        </div>
+        <div class="media our_item col-xl-6 col-lg-6 col-md-6">
+          <img src="./images/item3.png" class="mr-3" alt="item1">
+          <div class="media-body">
+            <h5 class="mt-0">Jaelynn Castillo </h5>
+            <p class="about">Graphic Design</p>
+            <span>
+              <i class="line"></i>
+            </span>
+            <p class="descr">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim.
+            </p>
+          </div>  
+        </div>
+        <div class="media our_item col-xl-6 col-lg-6 col-md-6">
+          <img src="./images/item4.png" class="mr-3 " alt="item1">
+          <div class="media-body">
+            <h5 class="mt-0">Mike Petrucci</h5>
+            <p class="about">Graphic Design</p>
+            <span>
+              <i class="line"></i>
+            </span>
+            <p class="descr">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim.
+            </p>
+          </div>  
+        </div>
+       </div>
+     </div>
+   </section>
+   <section class="container13">
+    <div class="strc ">
+      <span class="title">Our stories</span>
+      <h3>latest blog</h3>
+      <i class="line grr"></i>
+      <div>
+    <div class="container-fluid gallery">
+      <div class="row justify-content-around">
+       <div class="cont_add media col-xl-4 col-lg-4 col-md-5">
+         <div>
+           <img src="./images/cont13(1).png" class="img-fluid" alt="">
+           <div class="logo">
+             <p class="number">15</p>
+             <p class="month">Jan</p>
+           </div>
+           <div class="text">
+             <h5>Lorem ipsum dolor sit amet</h5>
+             <p>Consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+           </div>
+           <i class="line"></i>
+           <div class="status row">
+             <div class="views">
+              <img src="./images/VIEW.png" alt="">542
+             </div>
+             <div class="comments">
+              <img src="./images/SPEECH BUBBLE 2.png" alt="">17
+             </div>
+           </div>
+         </div>
+       </div>
+       <div class="cont_add media col-xl-4 col-lg-4 col-md-5">
+        <div>
+          <img src="./images/cont13(2).png" class="img-fluid" alt="">
+          <div class="logo">
+            <p class="number">14</p>
+            <p class="month">Jan</p>
+          </div>
+          <div class="text">
+            <h5>Lorem ipsum dolor sit amet</h5>
+            <p>Consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+          </div>
+          <i class="line"></i>
+          <div class="status row">
+            <div class="views">
+             <img src="./images/VIEW.png" alt="">542
+            </div>
+            <div class="comments">
+             <img src="./images/SPEECH BUBBLE 2.png" alt="">17
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="cont_add media col-xl-4 col-lg-4 col-md-5">
+        <div>
+          <img src="./images/cont13(3).png" class="img-fluid" alt="">
+          <div class="logo">
+            <p class="number">12</p>
+            <p class="month">Jan</p>
+          </div>
+          <div class="text">
+            <h5>Lorem ipsum dolor sit amet</h5>
+            <p>Consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+          </div>
+          <i class="line"></i>
+          <div class="status row">
+            <div class="views">
+             <img src="./images/VIEW.png" alt="">542
+            </div>
+            <div class="comments">
+             <img src="./images/SPEECH BUBBLE 2.png" alt="">17
+            </div>
+          </div>
+        </div>
+      </div>
+      </div>
+    </div>
+   </section>
+   <section class="map">
+    <div class="center">
+      <img src="./images/gps.png" alt="">
+      <h3>open map</h3>
+      <i class="line"></i>
+    </div>
+   </section>
+   <section class="container14">
+     <div class="container center">
+       <div class="col_1">
+        <h1 class="">MoGo</h1>
+        <p class="titleeee">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
+
+          Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. </p>
+         <h5 class=""><strong>15k</strong>followers</h5>
+         <i class="line row"></i>
+        <div class="row icon_cardss">
+          <span class=>Follow Us:</span>
+          <div class="icons">
+          <i class="fab fa-facebook-f"></i>
+          <i class="fab fa-twitter"></i>
+          <i class="fab fa-instagram"></i>
+          <i class="fab fa-pinterest-p"></i>
+          <i class="fab fa-google-plus-g"></i>
+          <i class="fab fa-youtube"></i>
+          <i class="fab fa-dribbble"></i>
+          <i class="fab fa-tumblr"></i>
+        </div>
+        </div> 
+        <form action="#" class="form-inline forma">
+          <div class="form-group ">
+            <input type="email" class="form-control em" id="inputPassword2" placeholder="Your E-mail..">
+            <button type="submit" class="btn btn-primary">subscribe</button>
+          </div>
+        </form> 
+       </div>
+       <div class="col_2">
+        <h1>Blogs</h1>
+        <div class="media">
+          <img src="./images/footer(1).png" class="mr-3" alt="...">
+          <div class="media-body qwerty">
+            <h5 class="mt-0">Lorem ipsum dolor sit amet, 
+              consectetur adipiscing</h5>
+           <p>Jan 9, 2016</p>
+          </div>
+        </div>
+        <div class="media">
+          <img src="./images/footer(2).png" class="mr-3" alt="...">
+          <div class="media-body qwerty">
+            <h5 class="mt-0">Consectetur adipiscing elit, 
+              sed do eiusmod tempor</h5>
+           <p>Jan 9, 2016</p>
+          </div>
+        </div>
+        <div class="media">
+          <img src="./images/footer(3).png" class="mr-3" alt="...">
+          <div class="media-body qwerty">
+            <h5 class="mt-0">sed do eiusmod tempor 
+              incididunt ut labore</h5>
+           <p>Jan 9, 2016</p>
+          </div>
+        </div>
+       </div>
+       <div class="col_3">
+        <h1>Instagram</h1>
+      <div class="grid_cards_item">
+        <div class="item">
+          <img src="./images/inst(1).png" alt="">
+        </div>
+        <div class="item">
+          <img src="./images/inst(2).png" alt="">
+        </div>
+        <div class="item">
+          <img src="./images/inst(3).png" alt="">
+        </div>
+        <div class="item">
+          <img src="./images/inst(4).png" alt="">
+        </div>
+        <div class="item">
+          <img src="./images/inst(5).png" alt="">
+        </div>
+        <div class="item">
+          <img src="./images/inst(6).png" alt="">
+        </div>
+        <div class="item">
+          <img src="./images/inst(7).png" alt="">
+        </div>
+        <div class="item">
+          <img src="./images/inst(8).png" alt="">
+        </div>
+        <div class="item">
+          <img src="./images/inst(10).png" alt="">
+        </div>
+      </div>
+      <p>View more photos</p>
+       </div>
+     </div>
+   </section>
+   <footer>
+    <div class="container center">
+      <i class="line"></i>
+      <p>© 2018 MoGo template by <span>Laaqiq</span> </p>
+   </footer>
    </div>
+
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+    <script src="./js/wow.min.js"></script>
+    <script>
+      new WOW().init();
+    </script>
   </body>
 </html>
